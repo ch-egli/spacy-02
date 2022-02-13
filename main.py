@@ -46,10 +46,14 @@ pattern2 = [{'IS_ALPHA': True},
             {'IS_ALPHA': True}]
 matcher2.add("Asyndeton", [pattern2])
 
-with open('Hoffmann-derGoldeneTopf.txt', encoding='utf8') as f:
-# with open('raeuber.txt', encoding='utf8') as f:
-# with open('werther-full.txt', encoding='utf8') as f:
-# with open('odi.txt', encoding='utf8') as f:
+# with open('books/Kafka-Verwandlung.txt', encoding='utf8') as f:
+# with open('books/Lessing-EmiliaGalotti.txt', encoding='utf8') as f:
+# with open('books/Lessing-NathanDerWeise.txt', encoding='utf8') as f:
+with open('books/Spyri-HeidisLehrUndWanderjahre.txt', encoding='utf8') as f:
+# with open('books/Hoffmann-derGoldeneTopf.txt', encoding='utf8') as f:
+# with open('books/Schiller-DieRaeuber.txt', encoding='utf8') as f:
+# with open('books/Goethe-DieLeidenDesJungenWerther.txt', encoding='utf8') as f:
+# with open('books/odi.txt', encoding='utf8') as f:
     document = nlp(f.read())
 
     pd.set_option('display.max_rows', None)
