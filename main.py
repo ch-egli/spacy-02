@@ -60,6 +60,9 @@ with open('books/Spyri-HeidisLehrUndWanderjahre.txt', encoding='utf8') as f:
     pd.set_option('display.max_columns', None)
     pd.set_option('display.width', None)
 
+    # for debugging: print analysis...
+    # print(tidy_tokens(document))
+
     countAnadiplose = 0
     matches1 = matcher1(document)
     print("-- Number of matches (Anadiplose): ", len(matches1))
