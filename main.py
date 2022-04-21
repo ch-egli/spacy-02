@@ -49,9 +49,9 @@ matcher2.add("Asyndeton", [pattern2])
 # with open('books/Kafka-Verwandlung.txt', encoding='utf8') as f:
 # with open('books/Lessing-EmiliaGalotti.txt', encoding='utf8') as f:
 # with open('books/Lessing-NathanDerWeise.txt', encoding='utf8') as f:
-with open('books/Spyri-HeidisLehrUndWanderjahre.txt', encoding='utf8') as f:
+# with open('books/Spyri-HeidisLehrUndWanderjahre.txt', encoding='utf8') as f:
 # with open('books/Hoffmann-derGoldeneTopf.txt', encoding='utf8') as f:
-# with open('books/Schiller-DieRaeuber.txt', encoding='utf8') as f:
+with open('books/Schiller-DieRaeuber.txt', encoding='utf8') as f:
 # with open('books/Goethe-DieLeidenDesJungenWerther.txt', encoding='utf8') as f:
 # with open('books/odi.txt', encoding='utf8') as f:
     document = nlp(f.read())
